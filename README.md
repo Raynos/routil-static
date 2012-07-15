@@ -9,7 +9,7 @@ Serve static files
             uri: path.join(__dirname, "static")
         })
         , http = require("http")
-        , router = new require("routes").Router()
+        , router = new (require("routes").Router)()
 
     router.addRoute("/static/*?", $static)
 
@@ -28,7 +28,7 @@ Serve static files
 
     var path = require("path")
         , http = require("http")
-        , router = new require("routes").Router()
+        , router = new (require("routes").Router)()
         , stylus = require("stylus")
         , nib = require("nib")
         , routilStatic = require("routil-static")
