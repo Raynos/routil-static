@@ -1,0 +1,43 @@
+{
+  "name": "routil-static",
+  "version": "0.0.1",
+  "description": "Serve static files",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/routil-static.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/routil-static",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/routil-static/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "glob": "~3.1.10",
+    "xtend": "~1.0.3",
+    "filed": "0.0.6",
+    "routil": "0.0.13",
+    "routes": "~0.1.1",
+    "stylus": "~0.28.1",
+    "nib": "~0.7.0"
+  },
+  "devDependencies": {
+    "testling": "git://github.com/Raynos/testling#master",
+    "testem": "git://github.com/Raynos/testem#master",
+    "sinon": "git://github.com/Raynos/Sinon.JS.git",
+    "tap": "0.2.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/routil-static/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "make node-test"
+  }
+}
