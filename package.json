@@ -20,16 +20,16 @@
     "glob": "~3.1.10",
     "xtend": "~1.0.3",
     "filed": "0.0.6",
-    "routil": "0.0.13",
-    "routes": "~0.1.1",
-    "stylus": "~0.28.1",
-    "nib": "~0.7.0"
+    "routil": "0.0.13"
   },
   "devDependencies": {
     "testling": "git://github.com/Raynos/testling#master",
     "testem": "git://github.com/Raynos/testem#master",
     "sinon": "git://github.com/Raynos/Sinon.JS.git",
-    "tap": "0.2.5"
+    "tap": "0.2.5",
+    "routes": "~0.1.1",
+    "stylus": "~0.28.1",
+    "nib": "~0.7.0"
   },
   "licenses": [
     {
